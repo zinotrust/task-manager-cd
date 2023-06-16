@@ -1,16 +1,10 @@
-import React from "react";
-import "./App.css";
+import TaskManager from "./components/taskManager/TaskManager";
+import TaskManagerReducer from "./components/taskManager/TaskManagerReducer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src="/logo.svg" className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.jsx</code> and save to reload!
-        </p>
-        <span className="App-link">Hello from codedamn :)</span>
-      </header>
+    <div>
+      <TaskManager />
     </div>
   );
 }
